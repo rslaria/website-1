@@ -23,21 +23,21 @@ Security announcements and news
 
 Edit announcements and news entries in the web UI.
 
-Security issues are not publicly visible as long as they are marked as draft.
-The are accessible through separate URL (you can click `View on the site` link
+Security issues are not publicly visible as long as they are marked as a draft.
+They are accessible through a separate URL (you can click `View on the site` link
 while editing).
 
 
 Page generating
 ---------------
 
-Each page has its own template. For most things it means inclusion of
-other templates to generate full page.
+Each page has its own template. For most things, it means the inclusion of
+other templates to generate a full page.
 
 Menu
 ----
 
-Menu is configured in data/menu.py, the first element always means page name
+The menu is configured in data/menu.py, the first element always means page name
 second menu item title.
 
 
@@ -62,8 +62,8 @@ All screenshots are listed in data/screenshots.py.
 Development
 -----------
 
-For development, first install dependencies. The ones needed for running the
-server are listed in ``requirements.txt``, for running testsuite in
+For development, first, install dependencies. The ones needed for running the
+server are listed in ``requirements.txt``, for running test suite in
 ``requirements-test.txt``. You can install them using your distribution (the
 package names will usually add python- prefix) or using pip:
 
